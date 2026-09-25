@@ -1,0 +1,194 @@
+/*grid and structure styles*/
+
+header{
+    grid-area: header;
+    padding: 2vh;
+    text-align: center;
+    background-color: #0F172A;
+}
+
+nav{
+    grid-area: nav;
+    padding: 2vh;
+    background-color: #1E293B;
+}
+
+article{
+    grid-area: article;
+    background-color:#0F172A;
+}   
+
+aside{
+    grid-area: aside;
+    background-color: #1E293B;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: #0F172A;
+}
+
+
+.gridContainer{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "article article aside"
+    "footer footer footer";
+    gap: 2vh;
+    margin: 2vh;
+
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    gap: 19vw;
+}
+
+/*general styling*/
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "rubik"
+
+}
+
+p{
+    font-size: 2em;
+}
+
+a{
+    cursor: pointer;
+    color: yellow;
+    font-size: 1.25em;
+}
+
+a:hover{
+    color:  white;
+}
+
+
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: "alfa slab one", cursive;
+}
+
+h2{
+    font-size: 1.75em;
+    font-weight: bold;
+    font-family: "bungee", cursive;
+}
+
+h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "bungee", cursive;
+}
+
+h4{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: "rubik", cursive;
+}
+
+img{
+    width: 20vw;
+    height: auto;  
+    border-radius: 20vh; 
+}
+
+figcaption{
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+
+hr{
+    margin: 0em;
+    padding: 0em;
+    color: #A78BFA;
+}
+
+article p{
+    font-size: 1.25em;
+    padding: 1.5vh
+}
+
+
+aside p{
+    font-size: 1em;
+}
+
+footer p{
+    font-size: 1.25em;
+    padding: 1vh;
+}
+
+button{
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 2vh;
+    width: 5vw;
+    height: 3vh;
+    min-width: 5em;
+    min-height: 3em;
+    color: cyan;
+    background-color: black;
+    border: 0.01em solid blue;
+}
+
+button:hover{
+    background-color: blue;
+    color: black;
+}
+
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+}
+
+aside p{
+    font-size: 1.25em;
+}
+
+footer img{
+    min-width: 3em;
+    min-height: 3em;
+    width: 7vh;
+    height: 7vh;
+    height: auto;
+    margin: 0.5vh;
+    border-radius: 0;
+}
+
+footer img:hover{
+    border: 0.01em solid cyan;
+}
+
+/*group styling*/
+
+header, nav, article, aside, footer{
+    border: 0.01em solid #A78BFA;
+    border-radius: 3vh;
+}
+
+article h2,article h3{
+    padding: 0.5vh;
+}
+
+aside h4, aside p{
+    padding: 1vh;
+}
+
+figure, figcaption{
+    text-align: center;
+}

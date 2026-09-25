@@ -1,0 +1,19 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "nav"
+    "sectionLeft"
+    "sectionRight"
+    "footer";
+    gap: 2vh;
+    margin: 0.5vh;
+
+
+}
+
+body{
+    margin: 3vw;
+}
+

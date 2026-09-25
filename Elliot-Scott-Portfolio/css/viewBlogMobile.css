@@ -1,0 +1,24 @@
+body{
+    margin: 1vh;
+
+}
+
+h2{
+    font-size: 1.1em;
+}
+
+p{
+    font-size: 0.9em;
+}
+
+.comment_text{
+    width: 95%;
+    
+}
+
+
+.dropdown, #filterBtn{
+    font-size: 0.9em;
+    width: 10em;
+    
+}

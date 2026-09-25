@@ -1,0 +1,106 @@
+/* structural styles*/
+
+.flexContainer_outer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+header{
+    text-align: right;
+    font-style: italic;
+    margin-right: 1.5vh;
+    margin-top: 1.5vh;
+    margin-bottom: 7vh;
+}
+
+main{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Bungee", cursive;
+}
+
+.flexContainer{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+    padding-top: 5vh;
+}
+
+footer{
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10vh;
+}
+
+
+/*general styles*/
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+a{
+    color: yellow;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+
+button{
+    background-color: darkred;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5vh;
+    border: 0.01vh solid black;
+    margin-bottom: 5vh;
+    color: white;
+}
+
+button:hover{
+    background-color: black;
+    border: 0.01vh solid white;
+}
+
+
+/*form styles*/
+label{
+    display: block;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+
+
+input{
+    border: 0.01vh solid darkred;
+    border-radius: 1vh;
+    padding: 1vh;
+    background-color: #C27A4A;
+    color: white;
+}
+
+input:hover{
+    border: 0.01vh solid black;
+    background-color: white;
+    color: black;
+}
+
+/*grouped styles*/
+
+main, .flexContainer, footer{
+    border: 0.5vh solid darkred;
+    margin: 4vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    background-color: #C27A4A;
+}
+

@@ -1,0 +1,25 @@
+
+img{
+    border-radius: 2vh;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "sectionUpperLeft sectionUpperMiddle"
+        "sectionUpperRight sectionLowerLeft"
+        "sectionLowerMiddle sectionLowerRight"
+        "footer footer";
+    min-width: 100%;
+}
+
+h1{
+    font-size: 2.1em;
+}
+
+h2{
+    font-size: 1.2em; 
+}

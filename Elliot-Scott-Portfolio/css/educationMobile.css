@@ -1,0 +1,40 @@
+.gridContainer{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "nav"
+        "sectionLeft"
+        "sectionRight"
+        "footer";
+}
+
+body{
+    margin: 1vh;
+}
+
+figcaption{
+    text-align: center;
+}
+
+p{
+    font-size: 1em;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.25em;
+}
+h3{
+    font-size: 1.2em; 
+}
+
+
+footer img{
+    width: 7vw;
+}
+

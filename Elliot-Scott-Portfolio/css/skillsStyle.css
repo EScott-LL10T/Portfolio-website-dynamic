@@ -1,0 +1,122 @@
+/* structural style */
+
+header{
+    grid-area: header;
+    text-align: center;
+}
+
+nav{
+    grid-area: nav;
+}
+
+.sectionLeft{
+    grid-area: sectionLeft;
+}
+
+.sectionRight{
+    grid-area: sectionRight;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    gap: 19vw;
+}
+
+.gridContainer{
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+        "header header"
+        "nav nav"
+        "sectionLeft sectionRight"
+        "footer footer";
+    gap: 3vh;
+    margin: 2vh;
+
+}
+
+/* general styles */
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-family: "`Rubik`, sans-serif;";
+}
+
+footer img{
+    min-width: 3em;
+    min-height: 3em;
+    width: 7vh;
+    height: 7vh;
+    height: auto;
+    margin: 0.5vh;
+    border-radius: 0;
+}
+
+footer p{
+    font-size: 0.7em;
+}
+
+footer img:hover{
+    border: cyan solid 0.1vh;
+}
+
+a{
+    color: orange;
+}
+
+a:hover{
+    color: yellow;
+}
+
+h1{
+    font-size: 2.5em;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+h2{
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Bungee', cursive;
+}
+
+h3{
+    font-size: 1.2em;
+    font-family: "Bungee", cursive;
+}
+
+/* table styles */
+
+caption{
+    font-size: 1.5em;
+    margin-bottom: 1vh;
+}
+
+table{
+    width: 100%;
+    border: black solid 0.1vh;
+}
+
+th, td{
+    border: black solid 0.1vh;
+    padding: 1vh;
+    text-align: center;
+}   
+
+/* grouped styles */
+
+header, nav, .sectionLeft, .sectionRight, footer{
+    border: white solid 0.1vh;
+    background-color: #6B5B95;
+    border-radius: 1vh;
+    padding: 2vh;
+}

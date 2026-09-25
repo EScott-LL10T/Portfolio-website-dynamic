@@ -1,0 +1,14 @@
+.flexContainer{
+    gap: 5vh;
+    margin-top: 2vh;
+}
+
+
+header{
+    margin-bottom: 5vh;
+}
+
+button{
+    width: 15vh;
+    height: 4vh;
+}

@@ -1,0 +1,14 @@
+
+.flexContainer{
+    margin-top: 4vh;
+    margin: 1vh;
+    gap: 5vh;
+}
+
+textarea{
+    width: 60vw;
+}
+
+h1{
+    font-size: 2em;
+}

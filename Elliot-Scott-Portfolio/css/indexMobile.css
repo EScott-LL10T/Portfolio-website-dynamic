@@ -1,0 +1,68 @@
+
+
+body{
+    margin: 3vw;
+
+}
+
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "header"
+    "nav"
+    "aside"
+    "article"
+    "footer";
+    gap: 2vh;
+    margin: 0.5vh;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+}
+
+button{
+    width: 20vw;
+    height: 7vh;
+   
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+}
+
+img{
+    width: 10em;
+    height: 10em;  
+    border-radius: 20em; 
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.25em;
+}
+
+h3{
+    font-size: 1.2em; 
+}
+
+h4{
+    font-size: 1.1em;
+}
+
+a{
+    font-size: 1.25em;
+}
+
+p{
+    font-size: 1.1em;
+}

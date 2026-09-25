@@ -1,0 +1,129 @@
+/* structural styles */
+
+.flexContainer{
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 5vh;
+}
+
+
+.border{
+    padding: 2vh;
+}
+
+header{
+    text-align: center;
+    margin-top: 5vh;
+    background-color: antiquewhite;
+
+}
+
+main{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+main, header{
+    padding: 1vh;
+
+}
+
+/* general styles */
+
+body{
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+   
+}
+
+h1{
+    font-size: 2em;
+    font-family: 'Bungee', cursive;
+}
+
+a{
+    color: brown;
+}
+
+a:hover{
+    color: yellowgreen;
+}
+
+/* form styles */
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2vh;
+}
+
+
+.buttonContainer .formButton{
+    padding: 0.5vh;
+    width: 20vw;
+    background-color: tan;
+    border-radius: 1.5vh;
+
+}
+
+textarea{
+    border-radius: 2vh;
+    border: 0.01vh solid black;
+    padding: 1vh;
+    width: 80vw;
+    height: 40vh;
+    font-size: 1.25em;
+}
+
+textarea:hover{
+    background-color: lightgray;
+}  
+
+input, button{
+    padding: 0.5vh;
+   
+}
+
+.buttonContainer .formButton:hover,
+.buttonContainer input[type="reset"]:hover{
+    background-color: lightgray;
+    border: 0.01vh solid black;
+    cursor: pointer;
+}
+
+select{
+    padding: 0.5vh;
+    background-color: white;
+}
+
+select:hover{
+    background-color: lightgray;
+    border: 0.01vh solid black;
+}
+
+input, select, textarea{
+    background-color: white;
+}
+
+header, main, footer{
+    border-radius: 2vh;
+    border: 0.01vh solid white;
+    padding: 2vh;
+    margin-right: 6vw;
+    margin-left: 6vw;
+}
+
+#titleInput{
+    width: 80vw;
+    padding: 0.5vh;
+    font-size: 1.25em;
+    border-radius: 1.5vh;
+    border: 0.01vh solid black;
+}

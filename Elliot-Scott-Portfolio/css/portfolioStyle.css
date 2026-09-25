@@ -1,0 +1,152 @@
+/* structural styles */
+
+header{
+    grid-area: header;
+    text-align: center;
+}
+
+nav{
+    grid-area: nav;
+    font-size: 1.1em;
+}
+
+.flexContainer{
+    display: flex;
+    justify-content: center;
+    gap: 19vw;
+    padding: 2vh;
+}
+
+.sectionUpperLeft{
+    grid-area: sectionUpperLeft;
+}
+
+.sectionUpperMiddle{
+    grid-area: sectionUpperMiddle;
+}
+
+.sectionUpperRight{
+    grid-area: sectionUpperRight;
+}
+
+.sectionLowerLeft{
+    grid-area: sectionLowerLeft;
+}
+
+.sectionLowerMiddle{
+    grid-area: sectionLowerMiddle;
+}
+
+.sectionLowerRight{
+    grid-area: sectionLowerRight;
+}
+
+.sectionRight{
+    grid-area: sectionRight;
+}
+
+footer{
+    grid-area: footer;
+    text-align: center;
+}
+
+.gridContainer{
+    display: grid;
+    min-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "sectionUpperLeft sectionUpperMiddle sectionUpperRight"
+        "sectionLowerLeft sectionLowerMiddle sectionLowerRight"
+        "footer footer footer";
+}
+
+
+
+/* general */
+
+body{
+    background-color: black;
+    color: white;
+    font-size: 0.9em;
+    font-family: "`Rubik`, sans-serif;";
+}
+
+nav a{
+    color: cyan;
+}
+
+a:hover{
+    color: black;
+}   
+
+h1{
+    font-size: 2em;
+    padding: 2vh;
+    font-family: 'Alfa Slab One', cursive;
+
+}
+
+h2{
+    font-size: 1.3em;
+    font-family: 'Bungee', cursive;
+}
+
+figure img{
+    min-width: 15em;
+    min-height: 10em;
+    width: 30vh;
+    height: 20vh;
+    border-radius: 2vh;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+footer img{
+    min-width: 3em;
+    min-height: 3em;
+    width: 7vh;
+    height: 7vh;
+    margin: 0.5vh;
+    border-radius: 0;
+}
+
+article{
+    font-size: 1.3em;
+}
+
+footer p{
+    font-size: 0.8em;
+}
+
+a img:hover{
+    border: 0.01em solid cyan;
+}
+
+/*grouped styles */
+header, nav, .sectionUpperLeft, .sectionUpperMiddle, .sectionUpperRight, .sectionLowerLeft, .sectionLowerMiddle, .sectionLowerRight, footer{
+    border: 0.1vh solid white;
+    border-radius: 2vh;
+    margin: 2vh;
+    padding: 0.5vh;
+    background-color: #5F7D5F;
+}
+
+
+section{
+    text-align: center;
+}
+
+#continue{
+    color: cyan;
+    font-size: 1.5em;
+}
+
+#continue:hover{
+    color: black;
+}
